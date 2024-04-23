@@ -25,6 +25,6 @@ steps:
     scantype: 'dynamic'
     dynamicType: 'DAST'
     scanURL: 'https://demo.testfire.net/'
-    type: 'production'
+    type: 'production1'
     loginMethod: 'None'
     network: 'public'
