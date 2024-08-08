@@ -14,7 +14,7 @@ steps:
   displayName: 'Run ASoC SAST Scan for $(Build.Repository.Name)'
   inputs:
     AppSecTestService: ASoCProduction
-    applications: '302e204b-d060-4600-a1ab-bf515dd6d12e' 
+    applications: 'c77eb298-9b34-4aef-801f-d404a6960f43' 
     scanname: "$(Build.Repository.Name)_$(Build.BuildNumber)"
     ScanSpeedOptions: thorough
     suspend: true
