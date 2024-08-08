@@ -13,7 +13,7 @@ steps:
 - task: HCLAppScanOnCloud@2
   displayName: 'Run ASoC SAST Scan for $(Build.Repository.Name)'
   inputs:
-    AppSecTestService: ASoC
+    AppSecTestService: ASoCProduction
     applications: '302e204b-d060-4600-a1ab-bf515dd6d12e' 
     scanname: "$(Build.Repository.Name)_$(Build.BuildNumber)"
     ScanSpeedOptions: thorough
