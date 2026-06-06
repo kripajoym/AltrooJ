@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'Madlab'
 
 steps:
 - script: echo Hello, world!
