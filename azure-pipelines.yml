@@ -25,7 +25,7 @@ steps:
     jobName: 'afas'
     folderId: 11
     templateId: 11
-    testPolicyId: 'abcd'
+    testPolicyId:
     applicationId: 11
     description: 'kf'
     contact: 'kfgj'
